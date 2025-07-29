@@ -1,0 +1,140 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+body{
+    background-color: rgb(227, 193, 255);
+}
+
+.btn
+{
+    width: 200px;
+    padding: 10px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+}
+
+.main_btn
+{
+    width: 200px;
+    padding: 10px;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* main */
+main
+{
+    position: relative;
+}
+
+.start
+{
+    padding-top: 10%;
+}
+
+section
+{
+    margin-top: 10%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: none;
+}
+
+section.start
+{
+    margin-top: 0;
+}
+
+section.start p 
+{
+    width: 70%;
+}
+
+p
+{
+    width: 70%;
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+section.active
+{
+  display: flex;
+    flex-direction: column; /* 이미지 위, 버튼 아래 정렬 */
+    align-items: center;     /* 수평 중앙 정렬 */
+    justify-content: center; /* 수직 중앙 정렬 */
+}
+
+section .q
+{
+    font-size: 32px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+section > div 
+{
+    margin: 5%;
+
+}
+
+.selection
+{
+    display: flex;
+}
+
+.selection > div
+{
+    margin-right: 5%;
+}
+
+.selection > div:last-child
+{
+    margin-right: 5%;
+}
+
+.selection > div:hover
+{
+
+    background-color: rgb(255, 128, 170);
+    cursor: pointer;
+}
+
+/* explain */
+.explain
+{
+    text-align: center;
+}
+
+h1:first-child
+{
+    font-size: 32px;
+     color: rgb(116, 0, 224);
+}
+h1
+{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+h6
+{
+    margin-top: 2%;
+    font-size: 24px;
+}
+
+
+
