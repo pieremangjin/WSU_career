@@ -49,6 +49,7 @@ section
     left: 50%;
     transform: translate(-50%);
     display: none;
+    padding-top: 20vh;
 }
 
 section.start
@@ -124,13 +125,14 @@ section#A, section#B, section#C, section#D, section#E
     text-align: center;
 }
 
-h1:first-child
-{
-    font-size: 2.5vw;
-     color: rgb(116, 0, 224);
-}
 h1
 {
+    text-align: center;
+    font-size: 2.5vw;
+    color: rgb(194, 23, 236);
+}
+
+h2{
     text-align: center;
     font-size: 2.5vw;
     color: rgb(255, 255, 255);
@@ -147,10 +149,16 @@ h6
 
   /* 텍스트 크기 키우기 */
   h1 {
-    font-size: 6vw;
+    font-size: 5vw;
   }
 
-  h4 {
+  h2{
+font-size: 4vw;
+padding: 0 10vw;
+}
+
+  h6
+  {
     font-size: 4vw;
   }
 
@@ -167,12 +175,6 @@ h6
   .btn, .main_btn, .btn2 {
     width: 60vw;
     padding: 2vw;
-  }
-
-  /* 이미지 크기 키우기 */
-  img, .adj_img {
-    width: 60vw;
-    height: 60vw;
   }
 
   /* 선택지 정렬 세로로 변경 */
@@ -192,7 +194,8 @@ h6
     left: auto;
     transform: none;
     width: 100%;
-    padding-top: 5vh;
+    padding-top: 20vh;
   }
 
+  
 }
